@@ -8,7 +8,7 @@ import java.util.Collection;
 @NoRepositoryBean
 public interface IContext {
 
-    IContext context = new IContextImpl();
+    IContext context = new ContextImpl();
 
     void createBean(Class domainClass);
 
