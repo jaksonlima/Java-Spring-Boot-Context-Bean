@@ -16,7 +16,7 @@ import java.util.Collection;
 import java.util.Map;
 
 @Configuration
-public class IContextImpl implements ApplicationContextAware, IContext {
+public class ContextImpl implements ApplicationContextAware, IContext {
 
     private static ApplicationContext applicationContext;
 
